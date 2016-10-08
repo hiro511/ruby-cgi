@@ -1,4 +1,4 @@
-# Docker-FuelPHP
+# Docker-Ruby-CGI
 Docker Image for a Ruby CGI Project
 
 ## Docker pull command
