@@ -32,6 +32,6 @@ docker run -d -p 80:80 --name my-running-app my-ruby-cgi
 If you don't want to include a `Dockerfile` in your project, It is sufficient to do the folloing:
 
 ```bash
-docker run -itd --name my-running-app -v "$PWD":/usr/local/apache2/htdocs/ hiro511/ruby-cgi:latest
+docker run -itd -p 80:80 --name my-running-app -v "$PWD":/usr/local/apache2/htdocs/ hiro511/ruby-cgi:latest
 
 ```
